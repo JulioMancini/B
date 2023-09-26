@@ -15,4 +15,16 @@
 
 * Arquitetura 64(x68)
 * Tipo de instância não precisa alterar ( continuar com t2.micro)
-* 
+* Criar uma chave
+* permitir tráfego SSH
+* Após a criação execute a instancia e salve a chave para poder fazer o acesso em SSH no Shell da maquina
+
+![ec2 3](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/3027e9ad-0b9f-441e-be8a-7c9cc988d9f8)
+
+* Abra o Shell da maquina e posicione no diretório onde a chave está.
+* Copiar e colar o comando (chave) diretamente do site da AWS
+
+![ec2 4](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/9997509b-8114-4d32-b5aa-74737ac3afbd)
+
+![ec2 5](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/5b33745e-7454-4777-b3a8-1f43635370c9)
+
