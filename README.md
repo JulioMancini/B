@@ -26,5 +26,31 @@
 
 ![ec2 4](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/9997509b-8114-4d32-b5aa-74737ac3afbd)
 
-![ec2 5](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/5b33745e-7454-4777-b3a8-1f43635370c9)
+[Pronto, agora voçê está conectado ao Linux e Ubuntu que está rodando em um servidor do AWS]![ec2 5](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/5b33745e-7454-4777-b3a8-1f43635370c9)
+
+# Instalando o Postgres
+**Atualizar o unzip**
+```bash
+sudo apt-get install unzip
+```
+**Instalar postgres e criar config do repositório**
+```bash
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+```
+**Importar chave**
+```bash
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+```
+**Atualizar pacotes**
+```bash
+sudo apt-get update
+```
+**Instala última versão do postgres**
+```bash
+sudo apt-get -y install postgresql
+```
+**Mudar para usuario postres**
+```bash
+sudo su - postgres
+```
 
