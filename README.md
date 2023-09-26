@@ -1,5 +1,5 @@
 # Modelo_Relacional-EC2-e-Postgres
-* Criar, popular e testando modelo relacional e SQL - Postgres (ssh) e EC2
+* Criar, popular e testar modelo relacional e SQL - Postgres (ssh) e EC2
 
 # Criando e configurando uma instância no EC2
 * Procurar por EC2 na pesquisa
@@ -14,5 +14,5 @@
   ![ec2 2](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/f9f0541d-203c-4e53-a075-8ea58c168c10)
 
 * Arquitetura 64(x68)
-* Tipo de instância não precia alterar ( continuar com t2.micro)
+* Tipo de instância não precisa alterar ( continuar com t2.micro)
 * 
