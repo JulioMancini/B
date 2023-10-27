@@ -1,5 +1,5 @@
 # Modelo_Relacional-EC2-e-Postgres
-* Criar, popular e testar modelo relacional e SQL - Postgres (ssh) e EC2
+* Criar e testar modelo relacional e SQL - Postgres (ssh) e EC2
 
 # Criando e configurando uma instância no EC2
 * Procurar por EC2 na pesquisa
