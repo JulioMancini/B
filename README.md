@@ -53,14 +53,8 @@ sudo apt-get -y install postgresql
 ```bash
 sudo su - postgres
 ```
-# Criando e Populando Banco de Dados
-- Agora vamos criar um diretório onde vamos baixar os arquivos
-- 
-**mudar para usuario postres**
-```bash
-sudo su - postgres
-```
-**criar diretoriog**
+
+  
 
 
 
