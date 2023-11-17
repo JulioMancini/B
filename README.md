@@ -64,7 +64,7 @@ unzip relacional.zip
 cat 1.CreateTable.sql
 ```
 
-[foto_unzip]![1](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/53a2d883-3452-452b-9b5d-4259ebdcb429)
+foto_unzip![1](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/53a2d883-3452-452b-9b5d-4259ebdcb429)
 
 
 
