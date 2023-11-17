@@ -67,10 +67,7 @@ cat 1.CreateTable.sql
 foto_unzip![1](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/53a2d883-3452-452b-9b5d-4259ebdcb429)
 
 
-
-
-
-**logar no postgres**
+**logar no postgres (psql = programa de linha de comando do postgresSQL)**
 ```bash
 psql
 ```  
@@ -78,8 +75,17 @@ psql
 ```bash
 create database ed;
 ```  
-
-
-
-
+**mudar para para p banco de dados criado**
+```bash
+\c ed;
+```  
+**criar e popular tabelas**
+```bash
+\i /var/lib/postgresql/relacional/1.CreateTable.sql
+\i /var/lib/postgresql/relacional/2.InsertClientes.sql
+\i /var/lib/postgresql/relacional/3.InsertIntoProdutos.sql
+\i /var/lib/postgresql/relacional/4.InsertIntoVendedores.sql
+\i /var/lib/postgresql/relacional/5.InsertIntoVendas.sql
+\i /var/lib/postgresql/relacional/6.InsertItensVenda.sql
+```  
 
