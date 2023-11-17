@@ -88,4 +88,4 @@ create database ed;
 \i /var/lib/postgresql/relacional/5.InsertIntoVendas.sql
 \i /var/lib/postgresql/relacional/6.InsertItensVenda.sql
 ```  
-
+* Pronto para as consultas basicas de sql
