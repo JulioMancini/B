@@ -53,8 +53,14 @@ sudo apt-get -y install postgresql
 ```bash
 sudo su - postgres
 ```
-
-  
-
-
+**Criar diretorio**
+```bash
+mkdir relacional
+```  
+**Baixar arquivo**
+```bash
+wget https://www.datascientist.com.br/engdados/relacional.zip
+unzip relacional.zip
+cat 1.CreateTable.sql
+```  
 
