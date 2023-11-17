@@ -28,7 +28,7 @@
 
 [Pronto, agora voçê está conectado ao Linux e Ubuntu que está rodando em um servidor do AWS]![ec2 5](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/5b33745e-7454-4777-b3a8-1f43635370c9)
 
-# Instalando o Postgres
+# Instalando e configurando o Postgres
 **Atualizar o unzip**
 ```bash
 sudo apt-get install unzip
@@ -62,5 +62,24 @@ mkdir relacional
 wget https://www.datascientist.com.br/engdados/relacional.zip
 unzip relacional.zip
 cat 1.CreateTable.sql
+```
+
+![foto_unzip]![1](https://github.com/JulioMancini/Modelo_Relacional-EC2-e-Postgres/assets/145502330/53a2d883-3452-452b-9b5d-4259ebdcb429)
+
+
+
+
+
+**logar no postgres**
+```bash
+psql
 ```  
+**criar banco de dados**
+```bash
+create database ed;
+```  
+
+
+
+
 
